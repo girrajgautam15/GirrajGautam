@@ -664,7 +664,7 @@ footer {
     }
 
     #abt{
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-weight: 700;
         padding-top: 2rem;
         text-align: center;
@@ -672,7 +672,7 @@ footer {
     }
 
     .abt-me-p{
-        font-size: 1.25rem;
+        font-size: 0.7rem;
         text-align: center;
     }
     .services .serv-content .cards{
@@ -683,7 +683,7 @@ footer {
     }
  
     .services .ser_img{
-        height: 150px;
+        height:120px;
         align-items: center;
     }
     
@@ -723,6 +723,34 @@ footer {
 
     .title{
         font-size: 2.5rem;
+    }
+    .emailjs button{
+        padding:7px 3px;
+        margin-top: 15px;
+        width: 50%;
+        height: 10%;
+       margin-left: 40%;
+       margin-bottom: 5%;
+       /* background-color: rgba(30,58,138,var(--tw-text-opacity)); */
+       font-size: 15px;
+        font-weight: 400;
+       border: 1px solid black;
+       border-radius: 5px;
+    }
+    .emailjs input,textarea{
+        padding:1.5px 0;
+        padding-left: 5px;
+        background-color: #f5e7e9;
+        /* color: #111; */
+        font-weight: 700;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        border: 1px solid pink; 
+        font-size: 15px;
+        font-weight: 500;
+       --tw-text-opacity: 1;
+       color: rgba(30,58,138,var(--tw-text-opacity));
+       border: 1px solid black;
     }
 }
 
@@ -807,7 +835,7 @@ footer {
     }
 
     #abt{
-        font-size: 2rem;
+        font-size: 1.5rem;
         font-weight: 700;
         padding-top: 2rem;
         text-align: center;
@@ -815,8 +843,15 @@ footer {
     }
     
     .abt-me-p{
-        font-size: 1.25rem;
+        font-size: 0.8rem;
         text-align: center;
+    }
+
+    .abt-me-p .text {
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+        font-size: 1rem;
+        font-weight: 500;
     }
     
     .services .serv-content .cards{
@@ -827,7 +862,7 @@ footer {
     }
  
     .services .ser_img{
-        height: 150px;
+        height: 120px;
         align-items: center;
     }
     
@@ -862,5 +897,25 @@ footer {
         width: 100%;
     }
 
+    .skill li {
+        padding: 0 25px 0 25px;
+        padding-top: 15px;
+        height: 60px;
+        width: 80px;
+    }
+    .emailjs button{
+        padding:10px 5px;
+        margin-top: 15px;
+        width: 70%;
+        height: 10%;
+       margin-left: 20%;
+       margin-bottom: 5%;
+       font-size: 15px;
+        font-weight: 500;
+       --tw-text-opacity: 1;
+       color: rgba(30,58,138,var(--tw-text-opacity));
+       border: 1px solid black;
+       border-radius: 5px;
+    }
 }
 
