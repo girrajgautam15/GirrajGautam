@@ -230,9 +230,11 @@
     color: rgba(107,114,128,var(--tw-text-opacity));
 }
 
+
 .services .serv-content .cards{
     align-items: center;
     justify-content: center;
+    /* height: 150px !important; */
 
 }
 
@@ -259,6 +261,10 @@
         width: 350px;
     }
 } */
+
+#port{
+    height: 300px;
+}
 .title{
     text-align: center;
 }
