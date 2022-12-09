@@ -77,3 +77,21 @@ $(document).ready(function () {
         }
     });
 });
+
+
+function SendMail(){
+    var fname = document.getElementById("fname").value;
+    var lname = document.getElementById("lname").value;
+    var fullname = fname+" "+lname;
+    var params={
+        from_name:fullname,
+        email_id:document.getElementById("email").value,
+        message:document.getElementById("message").value
+    }
+    emailjs.send("service_axrlfc5","template_baf9tzo",params).then(function(res){
+        console.log("Success! "+res.status);
+        document.getElementByID("btn").innerHTML="sent";
+    }).catch((err)=>{
+        console.log(err);
+    });
+}

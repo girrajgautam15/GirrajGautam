@@ -24,7 +24,12 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
-    
+    <script type="text/javascript"src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function(){
+        emailjs.init("xdLaMfiahavfZBH5t");
+        })();
+    </script>
 
 </head>
 
@@ -248,7 +253,7 @@
     <!-- projects section start -->
     <section class="teams" id="teams">
         <div class="max-width">
-            <h2 class="title"></h2>
+            <h2 class="title" style="padding-bottom: 2rem;"></h2>
             <div class="carousel owl-carousel">
                 <div class="card">
                     <div class="box" id="port">
@@ -281,7 +286,7 @@
     <Footer class="contact" id="contact">
         <div class="max-width">
             <h2 class="title">Contact Me</h2>
-            <div class="contact-content">
+            <!-- <div class="contact-content">
                 <div class="icons">
                     <div class="rows">
                         <i class="fas fa-user"></i>
@@ -291,14 +296,22 @@
                         </div>
                     </div>
                     
-                    <div class="rows" id="email">
+                    <div class="rows" >
                         <i class="fas fa-envelope"></i>
                         <div class="info">
                             <div class="head">Email</div>
                             <div class="sub-title">gautamgirraj86@gmail.com</div>
                         </div>
+                        
                     </div>
                 </div>
+            </div> --> -->
+            <div class="emailjs">
+                    <input type="text" id="fname" placeholder=" First Name" required>
+                    <input type="text" id="lname" placeholder=" Last Name" required>
+                <input type="email" id="email" placeholder=" Email Id" required> 
+                <textarea placeholder=" Message" id="message" cols="20" rows="5"></textarea>
+                <button id="btn" onclick="SendMail()">Send Message</button>
             </div>
         </div>
         </div>

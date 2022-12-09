@@ -399,6 +399,7 @@
 /* Project */
 .teams{
     padding-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 .teams .title::after{
     content: "My Projects";
@@ -589,7 +590,7 @@ footer {
     
 }
 .contact .contact-content .rows .info{
-    margin-left: 30px;
+    margin-left: 40px;
     
 }
 .contact .contact-content .rows i{
@@ -601,6 +602,58 @@ footer {
 }
 .contact .contact-content .info .sub-title{
     color: #111;
+}
+
+
+
+/* Emailjs */
+.emailjs {
+    display: flex;
+    flex-direction: column;
+    /* width: 50px; */
+    width: 35%;
+    align-items: stretch;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(30,58,138,var(--tw-text-opacity));
+}
+
+
+.emailjs input,textarea{
+    padding:5px 0;
+    padding-left: 5px;
+    background-color: #f5e7e9;
+    /* color: #111; */
+    font-weight: 700;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid pink; 
+    font-size: 15px;
+    font-weight: 500;
+   --tw-text-opacity: 1;
+   color: rgba(30,58,138,var(--tw-text-opacity));
+   border: 1px solid black;
+}
+
+.emailjs button{
+    padding:10px 5px;
+    margin-top: 15px;
+    width: 25%;
+    height: 10%;
+   margin-left: 40%;
+   margin-bottom: 5%;
+   /* background-color: rgba(30,58,138,var(--tw-text-opacity)); */
+   font-size: 15px;
+    font-weight: 500;
+   --tw-text-opacity: 1;
+   color: rgba(30,58,138,var(--tw-text-opacity));
+   border: 1px solid black;
+   border-radius: 5px;
+}
+
+.emailjs button:hover{
+    font-weight: 700;
 }
 
 /* teams section styling */
